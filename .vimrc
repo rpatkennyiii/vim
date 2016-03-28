@@ -1,7 +1,7 @@
 "set ts=4
 "set sw=4
 "set expandtab
-"set nowrap
+set nowrap
 
 au BufNewFile,BufRead *.py
   \: set tabstop=4
@@ -43,6 +43,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 " Add all your plugins here (note older versions of Vundle used Bundle instead of Plugin)
+Bundle 'ivanov/vim-ipython'
 Bundle 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/nerdtree'
 
